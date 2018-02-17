@@ -1,0 +1,7 @@
+Credentials cache: API:BDD3432B-075E-42C1-AEC3-9A0F96C42242
+        Principal: luman@42.FR
+
+  Issued                Expires               Principal
+Feb  6 20:58:42 2018  Feb 13 20:58:42 2018  krbtgt/42.FR@42.FR
+Feb  6 21:15:41 2018  Feb 13 20:58:42 2018  host/vgs-fn1.42.fr@42.FR
+Feb  6 21:20:20 2018  Feb 13 20:58:42 2018  ldap/ldap-proxy.42.fr@42.FR
