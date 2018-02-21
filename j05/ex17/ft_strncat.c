@@ -6,11 +6,11 @@
 /*   By: luman <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/20 23:25:01 by luman             #+#    #+#             */
-/*   Updated: 2018/02/20 23:26:33 by luman            ###   ########.fr       */
+/*   Updated: 2018/02/21 02:30:32 by luman            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strcat(char *dest, char *src, int nb)
+char	*ft_strncat(char *dest, char *src, int nb)
 {
 	int i;
 	int offset;

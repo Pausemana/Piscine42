@@ -6,7 +6,7 @@
 /*   By: luman <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/20 00:35:55 by luman             #+#    #+#             */
-/*   Updated: 2018/02/20 00:53:55 by luman            ###   ########.fr       */
+/*   Updated: 2018/02/21 02:25:48 by luman            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ char	*ft_strcapitalize(char *str)
 		{
 			if (i == 0)
 				str[i] -= 32;
-			else if (is_separator(str[i - 1]))
+			else if (is_separable(str[i - 1]))
 				str[i] -= 32;
 		}
-		else if (chartype == 2 && i != 0 && !separator(str[i - 1]))
+		else if (chartype == 2 && i != 0 && !is_separable(str[i - 1]))
 			str[i] += 32;
 		i++;
 	}

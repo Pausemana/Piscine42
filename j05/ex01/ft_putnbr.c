@@ -6,15 +6,13 @@
 /*   By: luman <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/17 14:54:46 by luman             #+#    #+#             */
-/*   Updated: 2018/02/18 23:34:11 by luman            ###   ########.fr       */
+/*   Updated: 2018/02/21 02:17:26 by luman            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
 void	ft_putnbr(int nb)
 {
-	if ((nb = -2147483648))
+	if (nb == -2147483648)
 	{
 		ft_putchar('-');
 		ft_putchar('2');
@@ -33,8 +31,8 @@ void	ft_putnbr(int nb)
 	}
 	if (nb >= 10)
 	{
-		ft_putchar(nb / 10);
-		ft_putchar(nb % 10 + 48);
+		ft_putnbr(nb / 10);
+		ft_putnbr(nb % 10);
 		return ;
 	}
 }
